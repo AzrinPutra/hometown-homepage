@@ -55,11 +55,10 @@ h1, h2, h3, h4 {
 #activities-header {
     background-color: #F1FAEE;
     padding-top: 60px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #activities {
-    font-size: 10px;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -72,16 +71,31 @@ h1, h2, h3, h4 {
 .activity-img {
     border: 2px solid white;
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
 }
 
 .activity-desc {
     margin: 20px;
     padding: 10px;
+    font-size: 14px;
+}
+
+#act-eat {
+    margin-bottom: 20px;
+}
+
+#act-race {
+    margin-bottom: 20px;
+}
+
+#act-walk {
+    margin-bottom: 20px;
 }
 
 .card {
+    width: auto;
     display: flex;
+    justify-content: center;
     margin: 20px 130px 20px 130px;
     font-size: 10px;
     background-color: #A8DADC;
@@ -98,9 +112,11 @@ h1, h2, h3, h4 {
 }
 
 .bio {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 35px 20px 30px 20px;
 }
 
